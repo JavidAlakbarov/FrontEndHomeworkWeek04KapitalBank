@@ -47,6 +47,9 @@ a:link{
   margin-top: 20px;
   font-size: 14px;
   color: gray;
+  & :hover{
+    border-bottom: 1px solid red;
+  }
 }
 button{
   color: white;
@@ -134,7 +137,6 @@ button{
   padding-left: 90px;
 }
 .offer{
-    
   padding-top:10px;
   display: flex;
   gap:50px;
@@ -175,4 +177,37 @@ button{
 .azn{
   width: 400px;
   margin-top: -100px;
+}
+footer{
+  background: #2e3131;
+  height: 600px;
+}
+.box5{
+  color: #fff;
+}
+.end{
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+.foot{
+  list-style: none;
+  & a{color: #fff;}
+  & a:hover{color: #f45369;}
+}
+.app{
+  height: 50px;
+  width: 150px;
+  border-radius: 8px;
+  margin-top: 20px;
+  background: #fff;
+  text-align: left;
+}
+.gov{
+  padding-left: 1100px;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  text-align: right;
 }
